@@ -1,0 +1,1089 @@
+SHAPELIB
+
+DEF_SHAPE 0 VLVSTM1
+   LINE 2 99 600 99 300 1 solid
+   RECTANGLE 0 0 198 300 1 solid unfilled
+END_SHAPE 0 0         * w=198,h=601  [x=0 y=0 w=198 h=601]
+
+DEF_SHAPE 1 VLVSTM2
+   LINE 2 99 400 99 100 1 solid
+   POLYGON 32 0 130 3 113 7 98 10 82 15 68
+        23 52 32 39 40 29 50 20
+        58 13 68 8 76 4 85 2
+        91 1 95 0 103 0 112 1
+        120 3 128 6 135 9 141 13
+        147 20 156 28 166 37 171 47
+        177 56 181 65 188 80 190 91
+        193 102 196 116 199 130 1 solid solid
+END_SHAPE 0 0         * w=200,h=401  [x=0 y=0 w=200 h=401]
+
+DEF_SHAPE 2 seqblok
+   ELLIPSE 4259 5522 4259 5522 1 solid unfilled
+END_SHAPE 0 0         * w=8518,h=11044  [x=0 y=0 w=8518 h=11044]
+
+DEF_SHAPE 3 seqactv
+   ELLIPSE 4259 5522 4259 5522 1 solid unfilled
+END_SHAPE 0 0         * w=8518,h=11044  [x=0 y=0 w=8518 h=11044]
+
+DEF_SHAPE 4 hedactv
+   RECTANGLE 0 0 1271 822 3 solid unfilled
+END_SHAPE 0 0         * w=1271,h=822  [x=-31 y=-23 w=1318 h=892]
+
+DEF_SHAPE 5 VLVSTM3
+   LINE 2 114 671 114 213 1 solid
+   LINE 2 18 193 219 193 1 solid
+   RECTANGLE 0 0 228 374 1 solid unfilled
+END_SHAPE 0 0         * w=228,h=672  [x=0 y=0 w=228 h=672]
+
+DEF_SHAPE 6 CANVPMP
+   RECTANGLE 748 258 110 282 1 solid vert_slash
+   RECTANGLE 63 262 110 282 1 solid vert_slash
+   LINE 2 862 184 862 627 1 solid
+   LINE 2 58 188 58 631 1 solid
+   LINE 2 920 184 920 627 1 solid
+   LINE 2 0 188 0 631 1 solid
+   ELLIPSE 462 398 288 398 1 solid outline
+END_SHAPE 0 0         * w=921,h=796  [x=0 y=0 w=921 h=796]
+
+DEF_SHAPE 7 valve
+   POLYGON 7 0 1794 0 1794 0 2990 481 2392 0 1794
+        0 1794 0 1794 1 solid solid
+   POLYGON 7 962 2990 962 2990 962 1794 480 2392 962 2990
+        962 2990 962 2990 1 solid solid
+   LINE 4 481 2392 481 598 481 598 481 598 1 solid
+   ARC 3 0 962 1196 180 -180 1 solid solid
+END_SHAPE 0 0         * w=966,h=2991  [x=0 y=0 w=966 h=2991]
+
+DEF_SHAPE 8 RARROW1
+   LINE 4 0 259 632 259 474 518 474 518 1 solid
+   LINE 2 632 259 474 0 1 solid
+END_SHAPE 47 301         * w=633,h=519  [x=-47 y=-301 w=633 h=519]
+
+DEF_SHAPE 9 ARROW0
+   LINE 3 0 265 426 265 426 265 3 solid
+   POLYGON 4 289 468 442 265 289 0 289 0 1 solid solid
+END_SHAPE 0 0         * w=443,h=469  [x=-31 y=0 w=474 h=469]
+
+DEF_SHAPE 10 arrow2
+   LINE 3 0 0 426 0 426 0 3 solid
+END_SHAPE 0 0         * w=427,h=1  [x=-31 y=-23 w=474 h=71]
+
+DEF_SHAPE 11 valve1
+   POLYGON 4 0 0 0 382 248 0 248 382 1 solid solid
+END_SHAPE 0 0         * w=249,h=383  [x=0 y=0 w=249 h=383]
+
+DEF_SHAPE 12 valve2
+   POLYGON 4 0 411 0 772 275 411 275 772 1 solid solid
+   LINE 2 138 585 138 329 1 solid
+   RECTANGLE 46 81 173 237 1 solid unfilled
+   POLYGON 32 45 74 47 62 50 58 54 48 59 37
+        66 32 73 22 81 16 89 13
+        97 8 104 4 111 3 120 1
+        125 0 130 0 136 0 144 0
+        153 2 159 4 166 5 170 8
+        177 13 184 15 192 19 198 26
+        202 34 205 37 212 43 214 52
+        217 59 220 63 222 74 1 solid solid
+END_SHAPE 0 0         * w=276,h=773  [x=0 y=0 w=276 h=773]
+
+DEF_SHAPE 13 valve3
+   POLYGON 4 0 453 0 811 278 453 278 811 1 solid solid
+   LINE 2 139 625 139 354 1 solid
+   RECTANGLE 32 0 212 327 1 solid unfilled
+END_SHAPE 0 0         * w=279,h=812  [x=0 y=0 w=279 h=812]
+
+DEF_SHAPE 14 valve4
+   POLYGON 4 0 273 0 634 275 273 275 634 1 solid solid
+   LINE 2 136 445 136 138 1 solid
+   POLYGON 32 34 130 37 113 41 98 44 82 49 68
+        57 52 66 39 74 29 84 20
+        92 13 102 8 110 4 119 2
+        125 1 129 0 137 0 146 1
+        154 3 162 6 169 9 175 13
+        181 20 190 28 200 37 205 47
+        211 56 215 65 222 80 224 91
+        227 102 230 116 233 130 1 solid solid
+   POLYGON 3 54 687 226 687 140 464 1 solid solid
+END_SHAPE 0 0         * w=276,h=688  [x=0 y=0 w=276 h=688]
+
+DEF_SHAPE 15 heater
+   ELLIPSE 493 409 265 409 1 solid unfilled
+   ELLIPSE 495 2577 265 409 1 solid unfilled
+   LINE 2 978 1092 699 661 1 solid
+   LINE 2 695 2315 976 1884 1 solid
+   LINE 2 3 1099 284 668 1 solid
+   LINE 2 494 818 494 2165 1 solid
+   LINE 2 279 2323 1 1892 1 solid
+   LINE 3 978 1094 978 1879 978 1879 1 solid
+   LINE 3 0 1102 0 1887 0 1887 1 solid
+END_SHAPE 0 0         * w=979,h=2986  [x=0 y=0 w=979 h=2986]
+
+DEF_SHAPE 16 pump1
+   LINE 17 581 133 533 180 495 224 477 255 444 322
+        416 409 400 482 395 555 394 627
+        394 680 403 754 426 825 461 896
+        495 949 530 980 556 1004 579 1020
+        1 solid
+   RECTANGLE 585 129 665 895 1 solid unfilled
+   LINE 3 1136 1028 1205 1250 1205 1250 1 solid
+   LINE 3 709 1028 641 1250 641 1250 1 solid
+   LINE 2 1202 1255 643 1255 1 solid
+   ARC 964 118 469 917 77 -154 1 solid unfilled
+   LINE 3 396 604 174 604 174 604 5 solid
+   LINE 2 174 134 174 1076 1 solid
+   LINE 2 1 134 1 1076 1 solid
+   ARC 0 930 176 272 6 -192 1 solid unfilled
+   ARC 1 0 176 272 353 192 1 solid unfilled
+END_SHAPE 0 0         * w=1433,h=1256  [x=0 y=0 w=1433 h=1256]
+
+DEF_SHAPE 17 valve5
+   POLYGON 4 0 273 0 634 275 273 275 634 1 solid solid
+   LINE 2 136 445 136 138 1 solid
+   POLYGON 32 34 130 37 113 41 98 44 82 49 68
+        57 52 66 39 74 29 84 20
+        92 13 102 8 110 4 119 2
+        125 1 129 0 137 0 146 1
+        154 3 162 6 169 9 175 13
+        181 20 190 28 200 37 205 47
+        211 56 215 65 222 80 224 91
+        227 102 230 116 233 130 1 solid solid
+END_SHAPE 0 0         * w=276,h=635  [x=0 y=0 w=276 h=635]
+
+DEF_SHAPE 18 oriface
+   LINE 2 0 0 0 516 1 solid
+   LINE 2 134 110 134 408 1 solid
+   LINE 2 269 0 269 516 1 solid
+END_SHAPE 0 0         * w=270,h=517  [x=0 y=0 w=270 h=517]
+
+DEF_SHAPE 19 venturi
+   LINE 2 7 6 7 520 1 solid
+   LINE 2 513 6 513 520 1 solid
+   ARC -277 -1559 1078 1664 241 56 1 solid unfilled
+   ARC -279 425 1078 1664 61 56 1 solid unfilled
+END_SHAPE 0 0         * w=522,h=530  [x=0 y=0 w=522 h=530]
+
+DEF_SHAPE 20 sprayer
+   RECTANGLE 0 1 542 964 1 solid unfilled
+   LINE 3 264 0 264 481 264 481 1 solid
+   LINE 2 265 484 398 690 1 solid
+   LINE 2 263 481 396 275 1 solid
+   LINE 2 267 481 400 481 1 solid
+   LINE 2 263 481 394 388 1 solid
+   LINE 2 265 483 396 576 1 solid
+END_SHAPE 0 0         * w=542,h=965  [x=0 y=0 w=542 h=965]
+
+DEF_SHAPE 21 cooler
+   ELLIPSE 340 525 340 525 1 solid unfilled
+   LINE 3 2 517 103 517 103 381 1 solid
+   LINE 3 673 525 572 525 572 661 1 solid
+   LINE 2 105 385 572 662 1 solid
+END_SHAPE 0 0         * w=680,h=1050  [x=0 y=0 w=680 h=1050]
+
+DEF_SHAPE 22 ARROW1
+   POLYGON 3 92 0 184 174 0 174 1 solid solid
+   LINE 2 94 169 94 408 1 solid
+END_SHAPE 0 0         * w=185,h=409  [x=0 y=0 w=185 h=409]
+
+DEF_SHAPE 23 ARROW2
+   POLYGON 3 92 0 184 174 0 174 1 solid solid
+END_SHAPE 0 0         * w=185,h=175  [x=0 y=0 w=185 h=175]
+
+DEF_SHAPE 24 halm
+   LINE 5 0 0 224 0 224 253 224 0 224 0
+        1 solid
+END_SHAPE 0 0         * w=225,h=254  [x=0 y=0 w=225 h=254]
+
+DEF_SHAPE 25 hhalm
+   LINE 5 0 0 224 0 224 253 224 0 224 0
+        1 solid
+   LINE 2 121 17 121 253 1 solid
+END_SHAPE 0 0         * w=225,h=254  [x=0 y=0 w=225 h=254]
+
+DEF_SHAPE 26 HORZPMP
+   LINE 2 811 0 811 539 1 solid
+   LINE 2 753 0 753 539 1 solid
+   POLYGON 35 753 62 269 62 211 86 163 114 124 153
+        92 203 48 274 22 365 3 451
+        0 532 3 587 3 641 26 737
+        55 807 70 850 94 886 141 941
+        188 983 244 1009 279 1017 323 1030
+        388 1017 422 1002 454 983 483 963
+        510 938 532 908 554 882 574 847
+        593 807 620 741 642 648 650 548
+        650 444 753 444 1 solid solid
+   ARC 154 394 242 359 84 -169 1 solid outline
+   ARC 174 442 175 263 84 -169 1 solid solid
+END_SHAPE 0 0         * w=812,h=1031  [x=0 y=0 w=812 h=1031]
+
+DEF_SHAPE 27 lalm
+   LINE 4 230 254 0 254 0 254 0 254 1 solid
+   LINE 3 230 229 230 127 230 0 1 solid
+END_SHAPE 0 254         * w=231,h=255  [x=0 y=-254 w=231 h=255]
+
+DEF_SHAPE 28 llalm
+   LINE 4 118 0 118 253 118 0 118 0 1 solid
+   LINE 4 230 258 0 258 0 258 0 258 1 solid
+   LINE 3 230 233 230 131 230 4 1 solid
+END_SHAPE 0 254         * w=231,h=259  [x=0 y=-254 w=231 h=259]
+
+DEF_SHAPE 29 lllalm
+   LINE 4 3 0 3 253 3 0 3 0 1 solid
+   LINE 4 118 0 118 253 118 0 118 0 1 solid
+   LINE 4 230 258 0 258 0 258 0 258 1 solid
+   LINE 3 230 233 230 131 230 4 1 solid
+END_SHAPE 0 254         * w=231,h=259  [x=0 y=-254 w=231 h=259]
+
+DEF_SHAPE 30 ARROW3
+   POLYGON 3 92 0 184 174 0 174 1 solid solid
+   LINE 3 77 169 77 408 77 408 1 solid
+END_SHAPE 0 0         * w=185,h=409  [x=0 y=0 w=185 h=409]
+
+DEF_SHAPE 31 arrow4up
+   POLYGON 3 0 232 85 0 171 232 1 solid solid
+END_SHAPE 0 0         * w=172,h=233  [x=0 y=0 w=172 h=233]
+
+DEF_SHAPE 32 arrow4down
+   POLYGON 3 164 0 82 254 0 0 1 solid solid
+END_SHAPE 0 0         * w=165,h=255  [x=0 y=0 w=165 h=255]
+
+DEF_SHAPE 33 arrow4left
+   POLYGON 3 164 254 0 127 164 0 1 solid solid
+END_SHAPE 0 0         * w=165,h=255  [x=0 y=0 w=165 h=255]
+
+DEF_SHAPE 34 arrow4righ
+   POLYGON 3 0 0 164 127 0 254 1 solid solid
+END_SHAPE 0 0         * w=165,h=255  [x=0 y=0 w=165 h=255]
+
+DEF_SHAPE 35 valve6
+   POLYGON 4 231 0 0 0 231 432 0 432 1 solid solid
+   LINE 2 120 216 293 217 1 solid
+   RECTANGLE 313 51 211 329 1 solid unfilled
+END_SHAPE 0 0         * w=524,h=433  [x=0 y=0 w=524 h=433]
+
+DEF_SHAPE 36 arrow2down
+   POLYGON 4 0 0 72 181 98 181 172 0 1 solid solid
+END_SHAPE 0 0         * w=173,h=182  [x=0 y=0 w=173 h=182]
+
+DEF_SHAPE 37 arrow2left
+   POLYGON 4 132 0 0 102 0 152 132 254 1 solid solid
+END_SHAPE 0 0         * w=133,h=255  [x=0 y=0 w=133 h=255]
+
+DEF_SHAPE 38 arrow2righ
+   POLYGON 4 0 0 132 102 132 152 0 254 1 solid solid
+END_SHAPE 0 0         * w=133,h=255  [x=0 y=0 w=133 h=255]
+
+DEF_SHAPE 39 sorhi
+   LINE 2 0 0 107 0 1 solid
+   LINE 2 50 0 50 231 1 solid
+END_SHAPE 0 0         * w=108,h=232  [x=0 y=0 w=108 h=232]
+
+DEF_SHAPE 40 sorlow
+   LINE 2 0 231 107 231 1 solid
+   LINE 2 50 231 50 0 1 solid
+END_SHAPE 0 0         * w=108,h=232  [x=0 y=0 w=108 h=232]
+
+DEF_SHAPE 41 sorav
+   LINE 2 0 89 107 89 1 solid
+   LINE 2 54 183 54 0 1 solid
+END_SHAPE 54 71         * w=108,h=184  [x=-54 y=-71 w=108 h=184]
+
+DEF_SHAPE 42 FISHVLV
+   RECTANGLE 0 0 4669 12190 1 solid unfilled
+END_SHAPE 198 677         * w=4669,h=12190  [x=-198 y=-677 w=4669 h=12190]
+
+DEF_SHAPE 43 VALVE6
+   LINE 2 200 441 200 188 1 solid
+   POLYGON 4 0 254 400 628 400 254 0 628 1 solid unfilled
+   ARC -6 0 421 589 158 -137 1 solid unfilled
+   LINE 2 8 188 400 188 1 solid
+END_SHAPE 203 440         * w=401,h=629  [x=-203 y=-440 w=401 h=629]
+
+DEF_SHAPE 44 VALBACTD
+   RECTANGLE 0 0 228 27 1 solid solid
+   LINE 2 114 27 114 1323 1 solid
+END_SHAPE 0 0         * w=228,h=1324  [x=0 y=0 w=228 h=1324]
+
+DEF_SHAPE 45 dummy
+   ELLIPSE 546 637 546 637 1 solid unfilled
+END_SHAPE 0 0         * w=1092,h=1274  [x=0 y=0 w=1092 h=1274]
+
+DEF_SHAPE 46 fillvalve
+   POLYGON 5 0 0 0 1368 1056 0 1056 1368 0 0
+        1 solid solid
+END_SHAPE 533 687         * w=1057,h=1369  [x=-533 y=-687 w=1057 h=1369]
+
+DEF_SHAPE 47 arrow1
+   POLYGON 6 266 558 266 240 0 240 266 0 531 240
+        266 240 1 solid unfilled
+END_SHAPE 265 555         * w=532,h=559  [x=-265 y=-555 w=532 h=559]
+
+DEF_SHAPE 48 FILTER
+   LINE 9 0 163 105 163 230 0 422 257 614 0
+        808 257 986 23 1108 187 1231 187
+        4 solid
+END_SHAPE 0 0         * w=1232,h=258  [x=-47 y=-47 w=1310 h=375]
+
+DEF_SHAPE 49 arrow1fill
+   POLYGON 6 266 558 266 240 0 240 266 0 531 240
+        266 240 1 solid solid
+   RECTANGLE 246 242 40 318 1 solid solid
+END_SHAPE 250 529         * w=532,h=560  [x=-250 y=-529 w=532 h=560]
+
+DEF_SHAPE 50 arrow2fill
+   POLYGON 4 0 505 310 0 619 505 0 505 1 solid solid
+END_SHAPE 328 472         * w=620,h=506  [x=-328 y=-472 w=620 h=506]
+
+DEF_SHAPE 51 fillvalve2
+   POLYGON 5 0 0 0 505 451 0 451 505 0 0
+        1 solid solid
+END_SHAPE 228 249         * w=452,h=506  [x=-228 y=-249 w=452 h=506]
+
+DEF_SHAPE 52 nvalve
+   LINE 4 1056 0 1056 1216 0 0 0 1216 2 solid
+END_SHAPE 517 587         * w=1057,h=1217  [x=-533 y=-587 w=1073 h=1240]
+
+DEF_SHAPE 53 nvalve1
+   LINE 4 419 0 419 456 0 0 0 456 2 solid
+END_SHAPE 207 223         * w=420,h=457  [x=-223 y=-223 w=436 h=480]
+
+DEF_SHAPE 54 valvetop
+   ARC -4 0 303 482 161 -143 2 solid solid
+   LINE 2 0 150 288 150 2 solid
+   LINE 2 144 658 123 152 3 solid
+END_SHAPE 127 533         * w=291,h=659  [x=-143 y=-533 w=307 h=706]
+
+DEF_SHAPE 55 valvetop1
+   ARC -4 0 303 482 161 -143 2 solid solid
+   LINE 2 0 150 288 150 2 solid
+   LINE 2 143 585 139 178 3 solid
+END_SHAPE 127 533         * w=291,h=586  [x=-143 y=-533 w=307 h=633]
+
+DEF_SHAPE 56 tiebreaker
+   LINE 2 379 261 379 759 2 solid
+   LINE 2 379 2023 379 1526 2 solid
+   LINE 3 282 409 379 255 476 409 2 solid
+   LINE 3 475 1875 379 2028 283 1875 2 solid
+   LINE 3 202 1049 242 1301 282 1049 2 solid
+   ELLIPSE 381 1142 381 606 2 solid unfilled
+   ARC 72 686 583 928 52 -105 2 solid unfilled
+   LINE 3 281 154 378 0 475 154 2 solid
+   LINE 3 281 2136 378 2290 475 2136 2 solid
+END_SHAPE 377 5         * w=762,h=2291  [x=-393 y=-5 w=778 h=2314]
+
+DEF_SHAPE 57 tiebank
+   ARC 319 0 318 506 90 180 2 solid unfilled
+   ARC -159 10 318 506 90 -180 2 solid unfilled
+   ARC 319 505 318 506 90 180 2 solid unfilled
+   ARC -159 515 318 506 90 -180 2 solid unfilled
+   ARC 319 1012 318 506 90 180 2 solid unfilled
+   ARC -159 1021 318 506 90 -180 2 solid unfilled
+   ARC 319 1518 318 506 90 180 2 solid unfilled
+   ARC -159 1528 318 506 90 -180 2 solid unfilled
+END_SHAPE 2 1015         * w=479,h=2035  [x=-17 y=-1015 w=494 h=2058]
+
+DEF_SHAPE 58 tiebank1
+   ARC 468 -199 156 398 0 -180 1 solid unfilled
+   ARC 312 -199 156 398 0 -180 1 solid unfilled
+   ARC 156 -199 156 398 0 -180 1 solid unfilled
+   ARC 0 -199 156 398 0 -180 1 solid unfilled
+END_SHAPE 280 28         * w=625,h=200  [x=-280 y=-28 w=625 h=200]
+
+DEF_SHAPE 59 vlvsol
+   LINE 8 0 0 0 508 304 254 608 508 608 0
+        304 254 0 0 0 0 1 solid
+END_SHAPE 0 0         * w=609,h=509  [x=0 y=0 w=609 h=509]
+
+DEF_SHAPE 60 cb
+   LINE 2 98 261 98 759 2 solid
+   LINE 2 98 2023 98 1526 2 solid
+   LINE 3 1 409 98 255 195 409 2 solid
+   LINE 3 194 1875 98 2028 2 1875 2 solid
+   ARC -209 686 583 928 52 -105 2 solid unfilled
+   LINE 3 0 154 97 0 194 154 2 solid
+   LINE 3 0 2136 97 2290 194 2136 2 solid
+END_SHAPE 0 0         * w=374,h=2291  [x=-16 y=0 w=390 h=2314]
+
+DEF_SHAPE 61 poke
+   POLYGON 4 1 0 173 449 352 0 1 0 1 solid solid
+   LINE 2 0 1 353 3 2 solid
+   LINE 2 0 3 173 451 2 solid
+   LINE 2 175 448 352 3 2 solid
+END_SHAPE 0 0         * w=354,h=452  [x=-16 y=0 w=370 h=475]
+
+DEF_SHAPE 62 breakerin
+   LINE 2 98 0 98 498 2 solid
+   LINE 2 98 3363 98 2841 2 solid
+   LINE 3 0 682 97 528 194 682 2 solid
+   LINE 3 0 2664 97 2818 194 2664 2 solid
+END_SHAPE 0 1         * w=195,h=3364  [x=-16 y=-1 w=211 h=3387]
+
+DEF_SHAPE 63 breakerout
+   LINE 3 0 154 97 0 194 154 2 solid
+   LINE 3 0 3119 97 3273 194 3119 2 solid
+END_SHAPE 0 0         * w=195,h=3274  [x=-16 y=0 w=211 h=3297]
+
+DEF_SHAPE 64 breaker
+   LINE 2 379 6 379 504 2 solid
+   LINE 2 379 1768 379 1271 2 solid
+   LINE 3 282 154 379 0 476 154 2 solid
+   LINE 3 475 1620 379 1773 283 1620 2 solid
+   ELLIPSE 381 887 381 606 2 solid unfilled
+   ARC 72 431 583 928 52 -105 2 solid unfilled
+   LINE 3 211 761 251 1013 291 761 2 solid
+END_SHAPE 0 0         * w=762,h=1774  [x=-16 y=0 w=778 h=1797]
+
+DEF_SHAPE 65 cb1
+   LINE 2 97 6 97 504 2 solid
+   LINE 2 97 1768 97 1271 2 solid
+   LINE 3 0 154 97 0 194 154 2 solid
+   LINE 3 193 1620 97 1773 1 1620 2 solid
+   ARC -210 431 583 928 52 -105 2 solid unfilled
+END_SHAPE 0 0         * w=373,h=1774  [x=-16 y=0 w=389 h=1797]
+
+DEF_SHAPE 66 arrows
+   POLYGON 4 0 723 149 248 297 723 0 723 1 solid solid
+   POLYGON 4 458 476 160 237 458 0 458 476 1 solid solid
+END_SHAPE 142 218         * w=459,h=724  [x=-142 y=-218 w=459 h=724]
+
+DEF_SHAPE 67 blkvlv
+   POLYGON 6 179 479 179 0 368 0 368 149 197 149
+        197 479 1 solid solid
+   POLYGON 5 0 249 0 697 377 249 377 697 0 249
+        1 solid solid
+END_SHAPE 197 464         * w=378,h=698  [x=-197 y=-464 w=378 h=698]
+
+DEF_SHAPE 68 VERTPMP
+   RECTANGLE 0 0 250 375 2 solid unfilled
+   LINE 2 117 398 117 1498 2 solid
+   LINE 2 204 1508 31 1508 2 solid
+   LINE 2 235 865 141 865 2 solid
+   LINE 2 297 702 297 1030 2 solid
+   LINE 2 250 702 250 1030 2 solid
+END_SHAPE 0 0         * w=298,h=1509  [x=-16 y=0 w=314 h=1532]
+
+DEF_SHAPE 69 DMPRO
+   RECTANGLE 0 0 218 775 2 solid unfilled
+   LINE 2 109 5 109 774 1 solid
+   LINE 2 176 79 43 79 1 solid
+   LINE 2 176 202 43 202 1 solid
+   LINE 2 176 325 43 325 1 solid
+   LINE 2 175 448 42 448 1 solid
+   LINE 2 176 571 43 571 1 solid
+   LINE 2 176 694 43 694 1 solid
+END_SHAPE 0 0         * w=218,h=775  [x=-16 y=0 w=234 h=798]
+
+DEF_SHAPE 70 TFILL
+   POLYGON 8 0 0 497 0 497 145 294 145 294 724
+        202 724 202 145 0 145 1 solid solid
+END_SHAPE 0 0         * w=498,h=725  [x=0 y=0 w=498 h=725]
+
+DEF_SHAPE 71 TUNFILL
+   POLYGON 8 0 0 497 0 497 145 295 145 295 724
+        203 724 203 145 0 145 1 solid unfilled
+END_SHAPE 262 119         * w=498,h=725  [x=-262 y=-119 w=498 h=725]
+
+DEF_SHAPE 72 DMPRC
+   RECTANGLE 0 0 218 775 2 solid unfilled
+   LINE 2 99 17 99 774 1 solid
+   LINE 2 165 51 32 156 1 solid
+   LINE 2 165 157 32 279 1 solid
+   LINE 2 165 280 32 386 1 solid
+   LINE 2 165 387 32 506 1 solid
+   LINE 2 165 506 32 612 1 solid
+   LINE 2 165 613 32 719 1 solid
+END_SHAPE 0 0         * w=218,h=775  [x=-16 y=0 w=234 h=798]
+
+DEF_SHAPE 73 nrvlv
+   LINE 4 65 157 65 0 352 0 352 151 2 solid
+   POLYGON 8 194 526 194 150 131 151 131 93 279 93
+        279 150 215 151 215 529 1 solid solid
+   LINE 4 359 307 359 714 0 307 0 714 2 solid
+   POLYGON 6 19 894 228 894 228 795 387 894 228 992
+        228 894 1 solid solid
+   RECTANGLE 18 887 208 15 1 solid solid
+END_SHAPE 0 0         * w=388,h=993  [x=-16 y=0 w=404 h=993]
+
+DEF_SHAPE 74 blkchk
+   LINE 4 363 286 363 699 0 286 0 699 2 solid
+   POLYGON 6 3 881 215 881 215 781 375 881 215 980
+        215 881 1 solid solid
+   RECTANGLE 2 874 211 15 1 solid solid
+   POLYGON 6 176 479 176 0 365 0 365 149 194 149
+        194 479 1 solid solid
+END_SHAPE 191 483         * w=376,h=981  [x=-207 y=-483 w=392 h=981]
+
+DEF_SHAPE 75 erv
+   ARC 0 404 207 330 48 140 2 solid unfilled
+   ARC 111 49 271 431 243 120 2 solid unfilled
+   POLYGON 7 318 888 31 888 175 431 31 0 318 0
+        175 431 318 888 1 solid solid
+END_SHAPE 175 429         * w=382,h=889  [x=-191 y=-429 w=398 h=889]
+
+DEF_SHAPE 76 BYPASS
+   POLYGON 4 0 262 0 715 278 489 0 262 1 solid solid
+   POLYGON 4 278 489 138 944 415 944 278 489 1 solid solid
+   ARC 76 0 414 541 161 -143 2 solid solid
+   LINE 2 288 571 288 178 3 solid
+END_SHAPE 282 527         * w=480,h=945  [x=-282 y=-527 w=480 h=945]
+
+DEF_SHAPE 77 vlv1
+   POLYGON 7 0 323 0 915 360 619 720 915 720 323
+        360 619 0 323 1 solid solid
+   RECTANGLE 185 237 353 381 1 solid solid
+   POLYGON 8 354 256 354 34 250 34 250 0 494 0
+        494 34 388 34 388 258 1 solid solid
+END_SHAPE 350 552         * w=721,h=916  [x=-350 y=-552 w=721 h=916]
+
+DEF_SHAPE 78 regvlv
+   ARC 40 229 556 844 161 -143 2 solid solid
+   LINE 4 332 304 332 0 812 0 428 1064 2 solid
+   LINE 2 327 1120 327 506 3 solid
+   POLYGON 5 617 1344 617 770 0 1344 0 770 617 1344
+        1 solid solid
+END_SHAPE 310 972         * w=813,h=1345  [x=-310 y=-972 w=813 h=1345]
+
+DEF_SHAPE 79 vlv3
+   ARC 3 0 473 627 19 143 2 solid solid
+   LINE 2 241 191 241 560 3 solid
+   POLYGON 3 241 531 128 883 354 883 1 solid solid
+   POLYGON 5 0 741 0 316 484 741 484 316 0 741
+        1 solid solid
+END_SHAPE 259 524         * w=485,h=884  [x=-259 y=-524 w=485 h=884]
+
+DEF_SHAPE 80 airfan
+   POLYGON 7 358 0 977 4 977 417 698 417 631 212
+        549 90 439 27 2 solid solid
+   ARC 345 239 425 629 186 -98 1 solid solid
+   ARC 116 571 425 629 186 -98 1 solid solid
+   ARC 125 -54 425 631 6 -98 1 solid solid
+   ARC -106 278 425 631 6 -98 1 solid solid
+   ELLIPSE 351 549 351 549 2 solid unfilled
+END_SHAPE 335 587         * w=978,h=1098  [x=-351 y=-587 w=994 h=1121]
+
+DEF_SHAPE 81 pumpfill3
+   POLYGON 35 497 0 172 0 135 15 104 33 79 58
+        59 90 31 136 14 194 2 249
+        0 301 2 337 2 372 17 433
+        35 478 45 506 60 529 90 564
+        120 591 156 608 178 613 207 621
+        248 613 270 603 290 591 309 578
+        326 562 340 543 354 526 367 504
+        379 478 396 436 410 376 415 312
+        415 245 496 245 1 solid solid
+END_SHAPE 202 306         * w=498,h=622  [x=-202 y=-306 w=498 h=622]
+
+DEF_SHAPE 82 pump3
+   POLYGON 35 539 0 186 0 147 16 113 38 86 65
+        64 99 34 150 14 215 2 275
+        0 334 2 373 2 412 18 478
+        38 529 50 560 65 586 97 624
+        129 654 170 673 193 679 223 687
+        269 679 292 668 314 654 335 639
+        354 621 368 602 384 582 397 558
+        412 529 429 482 445 416 450 345
+        450 301 539 301 1 solid unfilled
+END_SHAPE 202 306         * w=540,h=688  [x=-202 y=-306 w=540 h=688]
+
+DEF_SHAPE 83 valvetop3
+   ARC -4 0 303 482 161 -143 2 solid solid
+   LINE 2 0 150 288 150 2 solid
+   LINE 2 127 533 127 77 3 solid
+END_SHAPE 118 490         * w=291,h=534  [x=-134 y=-490 w=307 h=581]
+
+DEF_SHAPE 84 fan
+   RECTANGLE 0 0 358 1176 2 solid unfilled
+   POLYGON 4 43 270 290 270 43 846 290 846 1 solid solid
+   ARC 41 51 251 418 189 -198 1 solid solid
+   ARC 41 661 251 462 170 198 1 solid solid
+END_SHAPE 159 579         * w=358,h=1176  [x=-175 y=-579 w=374 h=1199]
+
+DEF_SHAPE 85 chkvlv
+   LINE 4 363 0 363 413 0 0 0 413 2 solid
+   POLYGON 6 3 595 215 595 215 495 375 595 215 694
+        215 595 1 solid solid
+   RECTANGLE 2 588 211 15 1 solid solid
+END_SHAPE 176 193         * w=376,h=695  [x=-192 y=-193 w=392 h=695]
+
+DEF_SHAPE 86 VLVCLOSED
+   RECTANGLE 0 0 276 886 2 solid unfilled
+   ELLIPSE 137 430 91 128 1 solid solid
+   LINE 2 141 20 141 861 2 solid
+END_SHAPE 134 401         * w=276,h=886  [x=-150 y=-401 w=292 h=909]
+
+DEF_SHAPE 87 VLVOPEN
+   RECTANGLE 0 0 276 886 2 solid unfilled
+   ELLIPSE 140 419 91 128 1 solid solid
+   LINE 2 8 5 266 881 2 solid
+END_SHAPE 0 0         * w=276,h=886  [x=-16 y=0 w=292 h=909]
+
+DEF_SHAPE 88 VENTVLV
+   ARC 6 0 623 844 161 -143 2 solid solid
+   LINE 2 327 891 327 277 3 solid
+   POLYGON 5 617 1115 617 541 0 1115 0 541 617 1115
+        1 solid solid
+END_SHAPE 310 768         * w=618,h=1116  [x=-310 y=-768 w=618 h=1116]
+
+DEF_SHAPE 89 vlv
+   POLYGON 7 0 0 0 592 360 296 720 592 720 0
+        360 296 0 0 1 solid solid
+END_SHAPE 0 0         * w=721,h=593  [x=0 y=0 w=721 h=593]
+
+DEF_SHAPE 90 vlvplug
+   POLYGON 7 0 296 0 888 360 592 720 888 720 296
+        360 592 0 296 1 solid solid
+   LINE 2 360 592 360 0 1 solid
+   ELLIPSE 355 618 108 177 1 solid solid
+END_SHAPE 0 0         * w=721,h=889  [x=0 y=0 w=721 h=889]
+
+DEF_SHAPE 91 vlsafety
+   LINE 7 576 0 252 166 576 332 252 498 576 664
+        360 830 360 830 1 solid
+   POLYGON 4 0 532 0 1124 360 828 0 532 1 solid solid
+   POLYGON 4 360 828 180 1420 540 1420 360 828 1 solid solid
+END_SHAPE 0 0         * w=577,h=1421  [x=0 y=0 w=577 h=1421]
+
+DEF_SHAPE 92 vlvdiaph
+   POLYGON 7 0 296 0 888 360 592 720 888 720 296
+        360 592 0 296 1 solid solid
+   ELLIPSE 355 618 108 177 1 solid solid
+   LINE 2 180 295 540 295 1 solid
+   ARC 180 0 360 591 180 -180 1 solid solid
+   LINE 2 360 592 360 296 2 solid
+END_SHAPE 0 0         * w=721,h=889  [x=0 y=0 w=721 h=889]
+
+DEF_SHAPE 93 vlvmotor
+   LINE 3 360 0 360 888 360 888 1 solid
+   POLYGON 5 360 0 0 0 0 296 360 296 360 296
+        1 solid solid
+   POLYGON 4 720 592 720 1184 360 888 720 592 1 solid solid
+   POLYGON 4 360 888 540 1480 180 1480 360 888 1 solid solid
+END_SHAPE 0 0         * w=721,h=1481  [x=0 y=0 w=721 h=1481]
+
+DEF_SHAPE 94 vlvglobe
+   POLYGON 7 0 0 0 592 360 296 720 592 720 0
+        360 296 0 0 1 solid solid
+   ELLIPSE 355 322 108 177 1 solid solid
+END_SHAPE 0 0         * w=721,h=593  [x=0 y=0 w=721 h=593]
+
+DEF_SHAPE 95 pumpposdsp
+   LINE 3 0 0 0 1184 0 1184 1 solid
+   LINE 3 0 1184 900 1184 900 592 1 solid
+   LINE 2 0 0 360 0 1 solid
+   LINE 2 360 0 360 592 1 solid
+   LINE 2 360 592 900 592 1 solid
+   ARC 47 83 252 414 135 -270 1 solid unfilled
+END_SHAPE 0 0         * w=901,h=1185  [x=0 y=0 w=901 h=1185]
+
+DEF_SHAPE 96 VLVSOLV
+   LINE 7 576 0 252 166 576 332 252 498 576 664
+        360 830 360 830 1 solid
+   POLYGON 4 0 532 0 1124 360 828 0 532 1 solid solid
+   POLYGON 4 360 828 180 1420 540 1420 360 828 1 solid solid
+END_SHAPE 0 0         * w=577,h=1421  [x=0 y=0 w=577 h=1421]
+
+DEF_SHAPE 97 SOLVLV
+   LINE 7 576 0 252 166 576 332 252 498 576 664
+        360 830 360 830 1 solid
+   POLYGON 4 0 532 0 1124 360 828 0 532 1 solid solid
+   POLYGON 4 360 828 180 1420 540 1420 360 828 1 solid solid
+END_SHAPE 0 0         * w=577,h=1421  [x=0 y=0 w=577 h=1421]
+
+DEF_SHAPE 98 acb
+   LINE 2 0 0 0 498 2 solid
+   LINE 2 0 1762 0 1265 2 solid
+   ARC -307 425 583 928 52 -105 2 solid unfilled
+END_SHAPE 0 0         * w=276,h=1763  [x=-16 y=0 w=292 h=1786]
+
+DEF_SHAPE 99 cuebox
+   RECTANGLE 0 0 243 607 1 solid unfilled
+END_SHAPE 0 0         * w=243,h=607  [x=0 y=0 w=243 h=607]
+
+DEF_SHAPE 100 dyn25c
+   ELLIPSE 192 311 192 311 1 solid unfilled
+END_SHAPE 0 0         * w=384,h=622  [x=0 y=0 w=384 h=622]
+
+DEF_SHAPE 101 dyn25o
+   ELLIPSE 192 311 192 311 1 solid solid
+END_SHAPE 0 0         * w=384,h=622  [x=0 y=0 w=384 h=622]
+
+DEF_SHAPE 102 dyn25i
+   ELLIPSE 192 311 192 311 1 solid unfilled
+   POLYGON 3 127 34 190 257 237 31 1 solid solid
+   POLYGON 3 122 586 206 383 261 589 1 solid solid
+   POLYGON 3 56 84 142 258 4 258 1 solid solid
+   POLYGON 3 68 531 147 364 8 364 1 solid solid
+   POLYGON 3 309 84 242 258 369 258 1 solid solid
+   POLYGON 3 321 504 246 364 373 364 1 solid solid
+END_SHAPE 0 0         * w=384,h=622  [x=0 y=0 w=384 h=622]
+
+DEF_SHAPE 103 vlv9xxxx
+   LINE 5 0 0 0 288 384 0 384 288 0 0
+        1 solid
+END_SHAPE 0 0         * w=385,h=289  [x=0 y=0 w=385 h=289]
+
+DEF_SHAPE 104 orifaceplt
+   LINE 2 174 144 0 144 2 solid
+   LINE 2 570 144 396 144 2 solid
+   LINE 6 570 144 426 0 144 0 0 144 144 288
+        426 288 1 solid
+   LINE 2 426 288 570 144 1 solid
+END_SHAPE 0 0         * w=571,h=289  [x=-16 y=0 w=587 h=289]
+
+DEF_SHAPE 105 cross
+   LINE 2 36 0 36 132 1 solid
+   LINE 2 0 71 71 71 1 solid
+END_SHAPE 0 0         * w=72,h=133  [x=0 y=0 w=72 h=133]
+
+DEF_SHAPE 106 minus
+   LINE 2 0 0 70 0 1 solid
+END_SHAPE 0 0         * w=71,h=1  [x=0 y=0 w=71 h=1]
+
+DEF_SHAPE 107 circlecap
+   LINE 4 310 0 166 0 166 72 310 72 1 solid
+   LINE 4 310 892 166 892 166 964 310 964 1 solid
+   LINE 2 310 72 310 0 1 solid
+   LINE 2 310 964 310 892 1 solid
+   ELLIPSE 241 480 241 411 1 solid unfilled
+END_SHAPE 0 0         * w=482,h=965  [x=0 y=0 w=482 h=965]
+
+DEF_SHAPE 108 planpump
+   LINE 2 7 1238 142 1012 1 solid
+   LINE 2 673 1238 538 1012 1 solid
+   LINE 2 7 1238 673 1238 1 solid
+   ARC 0 0 686 1114 234 -289 1 solid unfilled
+END_SHAPE 0 0         * w=687,h=1239  [x=0 y=0 w=687 h=1239]
+
+DEF_SHAPE 109 plnpump2
+   LINE 2 4 709 82 580 1 solid
+   LINE 2 392 709 313 580 1 solid
+   LINE 2 4 709 392 709 1 solid
+   ARC 0 0 399 638 234 -289 1 solid unfilled
+END_SHAPE 0 0         * w=399,h=710  [x=0 y=0 w=399 h=710]
+
+DEF_SHAPE 110 tinycircle
+   ELLIPSE 60 97 60 97 1 solid solid
+END_SHAPE 0 0         * w=120,h=194  [x=0 y=0 w=120 h=194]
+
+DEF_SHAPE 111 dyn01c
+   POLYGON 5 99 0 99 282 476 0 476 282 99 0
+        1 solid unfilled
+   LINE 2 0 11 0 261 1 solid
+   LINE 2 573 11 573 261 1 solid
+END_SHAPE 0 0         * w=574,h=283  [x=0 y=0 w=574 h=283]
+
+DEF_SHAPE 112 dyn01p
+   LINE 2 0 140 573 140 1 solid
+   LINE 5 93 0 93 282 471 0 471 282 93 0
+        1 solid
+   POLYGON 4 93 0 471 282 471 141 93 141 1 solid solid
+END_SHAPE 0 0         * w=574,h=283  [x=0 y=0 w=574 h=283]
+
+DEF_SHAPE 113 dyn01o
+   POLYGON 5 99 0 99 282 476 0 476 282 99 0
+        1 solid solid
+   LINE 2 0 140 573 140 1 solid
+END_SHAPE 0 0         * w=574,h=283  [x=0 y=0 w=574 h=283]
+
+DEF_SHAPE 114 dyn01i
+   POLYGON 5 99 0 99 282 476 0 476 282 99 0
+        1 solid solid
+   LINE 2 0 11 0 261 1 solid
+   LINE 2 573 11 573 261 1 solid
+END_SHAPE 0 0         * w=574,h=283  [x=0 y=0 w=574 h=283]
+
+DEF_SHAPE 115 dyn01c2
+   POLYGON 5 99 0 99 282 476 0 476 282 99 0
+        1 solid unfilled
+   LINE 2 0 11 0 261 2 solid
+   LINE 2 573 11 573 261 2 solid
+END_SHAPE 0 0         * w=574,h=283  [x=-16 y=0 w=590 h=283]
+
+DEF_SHAPE 116 dyn01p2
+   LINE 2 0 140 573 140 2 solid
+   LINE 5 93 0 93 282 471 0 471 282 93 0
+        1 solid
+   POLYGON 4 93 0 471 282 471 141 93 141 1 solid solid
+END_SHAPE 0 0         * w=574,h=283  [x=-16 y=0 w=590 h=283]
+
+DEF_SHAPE 117 dyn01o2
+   POLYGON 5 99 0 99 282 476 0 476 282 99 0
+        1 solid solid
+   LINE 2 0 140 573 140 2 solid
+END_SHAPE 0 0         * w=574,h=283  [x=-16 y=0 w=590 h=283]
+
+DEF_SHAPE 118 dyn01i2
+   POLYGON 5 99 0 99 282 476 0 476 282 99 0
+        1 solid solid
+   LINE 2 0 11 0 261 2 solid
+   LINE 2 573 11 573 261 2 solid
+END_SHAPE 0 0         * w=574,h=283  [x=-16 y=0 w=590 h=283]
+
+DEF_SHAPE 119 dyn06c
+   LINE 5 97 426 97 240 31 168 163 72 97 0
+        1 solid
+   LINE 2 472 282 472 570 1 solid
+   LINE 2 189 1036 0 1036 1 solid
+   POLYGON 6 194 714 100 429 290 572 290 287 99 426
+        0 714 1 solid unfilled
+END_SHAPE 0 0         * w=473,h=1037  [x=0 y=0 w=473 h=1037]
+
+DEF_SHAPE 120 dyn06p
+   LINE 6 287 283 287 571 95 427 191 715 0 715
+        95 427 1 solid
+   LINE 2 95 427 287 283 1 solid
+   POLYGON 8 95 716 189 716 96 428 287 428 287 286
+        95 430 95 712 95 714 1 solid solid
+   LINE 2 472 416 293 416 1 solid
+   LINE 2 96 1036 96 705 1 solid
+   LINE 5 97 426 97 240 31 168 163 72 97 0
+        1 solid
+END_SHAPE 0 0         * w=473,h=1037  [x=0 y=0 w=473 h=1037]
+
+DEF_SHAPE 121 dyn06o
+   LINE 2 472 416 293 416 1 solid
+   LINE 2 96 1036 96 705 1 solid
+   LINE 5 97 426 97 240 31 168 163 72 97 0
+        1 solid
+   POLYGON 6 194 714 100 429 290 572 290 287 99 426
+        0 714 1 solid solid
+END_SHAPE 0 0         * w=473,h=1037  [x=0 y=0 w=473 h=1037]
+
+DEF_SHAPE 122 dyn06i
+   LINE 5 97 426 97 240 31 168 163 72 97 0
+        1 solid
+   LINE 2 472 282 472 570 1 solid
+   LINE 2 189 1036 0 1036 1 solid
+   POLYGON 6 194 714 100 429 290 572 290 287 99 426
+        0 714 1 solid solid
+END_SHAPE 0 0         * w=473,h=1037  [x=0 y=0 w=473 h=1037]
+
+DEF_SHAPE 123 barscale
+   LINE 2 92 3613 92 0 1 solid
+   LINE 2 31 339 151 339 1 solid
+   LINE 2 31 686 151 686 1 solid
+   LINE 2 31 2147 151 2147 1 solid
+   LINE 2 31 1056 151 1056 1 solid
+   LINE 2 31 2517 151 2517 1 solid
+   LINE 2 31 2887 151 2887 1 solid
+   LINE 2 31 1425 151 1425 1 solid
+   LINE 2 31 3249 151 3249 1 solid
+   LINE 2 0 1793 190 1793 1 solid
+   LINE 2 0 0 190 0 1 solid
+   LINE 2 0 3613 190 3613 1 solid
+END_SHAPE 0 0         * w=191,h=3614  [x=0 y=0 w=191 h=3614]
+
+DEF_SHAPE 124 arrow01D
+   POLYGON 4 1587 0 0 1055 3174 1055 1587 0 2 solid unfilled
+END_SHAPE 0 0         * w=3175,h=1056  [x=-16 y=0 w=3191 h=1079]
+
+DEF_SHAPE 125 PUMP01F
+   POLYGON 5 456 6 0 6 0 438 152 438 456 6
+        1 solid solid
+   ARC 155 0 637 905 177 275 1 solid solid
+END_SHAPE 0 0         * w=792,h=905  [x=0 y=0 w=792 h=905]
+
+DEF_SHAPE 126 test
+   RECTANGLE 525 1459 1145 2528 1 solid unfilled
+   RECTANGLE 1181 2722 1051 2384 1 solid unfilled
+   RECTANGLE 0 0 1051 2480 1 solid unfilled
+END_SHAPE 1360 1994         * w=2232,h=5106  [x=-1360 y=-1994 w=2232 h=5106]
+
+DEF_SHAPE 127 DMPROL
+   RECTANGLE 0 0 218 772 2 solid unfilled
+END_SHAPE 0 0         * w=218,h=772  [x=-16 y=0 w=234 h=795]
+
+DEF_SHAPE 128 DMPRT
+   LINE 2 67 0 67 708 1 solid
+   LINE 2 133 34 0 139 1 solid
+   LINE 2 133 140 0 261 1 solid
+   LINE 2 133 262 0 368 1 solid
+   LINE 2 133 369 0 488 1 solid
+   LINE 2 133 488 0 593 1 solid
+   LINE 2 133 594 0 700 1 solid
+END_SHAPE 0 0         * w=134,h=709  [x=0 y=0 w=134 h=709]
+
+DEF_SHAPE 129 VEK00
+   POLYGON 3 61 501 122 288 0 288 1 solid solid
+   LINE 2 62 294 62 0 1 solid
+END_SHAPE 63 478         * w=123,h=502  [x=-63 y=-478 w=123 h=502]
+
+DEF_SHAPE 130 VEK04
+   RECTANGLE 0 0 125 329 1 solid solid
+END_SHAPE 62 164         * w=125,h=329  [x=-62 y=-164 w=125 h=329]
+
+DEF_SHAPE 131 VEK05
+   ELLIPSE 104 156 104 156 1 solid unfilled
+   LINE 2 25 38 166 250 1 solid
+   LINE 2 166 38 25 250 1 solid
+END_SHAPE 109 23         * w=208,h=312  [x=-109 y=-23 w=208 h=312]
+
+DEF_SHAPE 132 MED72
+   LINE 2 0 414 265 17 1 solid
+   POLYGON 3 91 0 280 274 280 0 1 solid solid
+END_SHAPE 280 18         * w=281,h=415  [x=-280 y=-18 w=281 h=415]
+
+DEF_SHAPE 133 MED16
+   POLYGON 3 225 0 112 254 0 0 1 solid solid
+END_SHAPE 114 240         * w=226,h=255  [x=-114 y=-240 w=226 h=255]
+
+DEF_SHAPE 134 MED71
+   POLYGON 35 0 0 324 0 361 15 392 33 417 58
+        437 90 465 136 482 194 494 249
+        496 301 494 337 494 372 479 433
+        461 478 451 506 436 529 406 564
+        376 591 340 608 318 613 289 621
+        248 613 226 603 206 591 187 578
+        170 562 156 543 142 526 129 504
+        117 478 100 436 86 376 81 312
+        81 245 0 245 1 solid solid
+END_SHAPE 14 117         * w=497,h=622  [x=-14 y=-117 w=497 h=622]
+
+DEF_SHAPE 135 SMLARROW
+   POLYGON 3 76 361 153 207 0 207 1 solid solid
+   LINE 2 78 212 78 0 1 solid
+END_SHAPE 70 337         * w=154,h=362  [x=-70 y=-337 w=154 h=362]
+
+DEF_SHAPE 136 arrow4dwnf
+   POLYGON 3 0 0 90 254 179 0 1 solid outline
+END_SHAPE 0 0         * w=180,h=255  [x=0 y=0 w=180 h=255]
+
+DEF_SHAPE 137 arrow4upf
+   POLYGON 3 0 255 92 0 185 255 1 solid outline
+END_SHAPE 0 0         * w=186,h=256  [x=0 y=0 w=186 h=256]
+
+DEF_SHAPE 138 FAN
+   ELLIPSE 529 799 529 799 1 solid unfilled
+   ARC 462 137 606 804 220 101 1 solid unfilled
+   ARC -6 648 606 804 140 -101 1 solid unfilled
+   ARC 524 414 663 995 166 91 1 solid unfilled
+   ARC -119 173 663 995 346 91 1 solid unfilled
+   ARC 269 787 667 1001 102 91 1 solid unfilled
+   ARC 130 -192 667 1001 282 91 1 solid unfilled
+   ELLIPSE 532 800 70 105 1 solid solid
+END_SHAPE 0 0         * w=1058,h=1598  [x=0 y=0 w=1058 h=1598]
+
+DEF_SHAPE 139 MED11
+   POLYGON 4 410 0 0 215 410 433 827 215 1 solid solid
+END_SHAPE 159 233         * w=828,h=434  [x=-159 y=-233 w=828 h=434]
+
+DEF_SHAPE 140 MOTOR
+   LINE 17 407 4 359 51 321 95 303 126 270 193
+        242 280 226 353 221 426 220 498
+        220 551 229 625 252 696 287 767
+        321 820 356 851 382 875 405 891
+        1 solid
+   RECTANGLE 411 0 665 895 1 solid unfilled
+   LINE 3 962 899 1031 1121 1031 1121 1 solid
+   LINE 3 535 899 467 1121 467 1121 1 solid
+   LINE 2 1028 1126 469 1126 1 solid
+   ARC 790 -11 469 917 77 -154 1 solid unfilled
+   LINE 3 222 475 0 475 0 475 5 solid
+END_SHAPE 0 0         * w=1259,h=1127  [x=-62 y=0 w=1321 h=1127]
+
+DEF_SHAPE 141 chkvlv1
+   LINE 2 0 98 0 440 2 solid
+   POLYGON 3 0 263 279 116 279 421 1 solid solid
+   ARC 77 -59 122 199 24 -227 1 solid unfilled
+END_SHAPE 127 0         * w=280,h=441  [x=-143 y=0 w=296 h=464]
+
+DEF_SHAPE 142 fwpmp
+   POLYGON 14 1463 0 665 0 266 400 0 400 0 800
+        133 800 399 1000 399 1200 1463 1200
+        1862 1000 2128 1000 2128 200 1862 200
+        1463 0 1 solid solid
+END_SHAPE 1062 47         * w=2129,h=1201  [x=-1062 y=-47 w=2129 h=1201]
+
+DEF_SHAPE 143 pmpmtr
+   RECTANGLE 0 148 330 550 1 solid solid
+   ARC -3 0 338 385 167 -154 1 solid solid
+   ARC -4 462 338 385 193 154 1 solid solid
+END_SHAPE 0 0         * w=331,h=847  [x=0 y=0 w=331 h=847]
+
+DEF_SHAPE 144 DFDBKR
+   RECTANGLE 0 0 266 400 2 solid unfilled
+END_SHAPE 138 3         * w=266,h=400  [x=-154 y=-3 w=282 h=423]
+
+DEF_SHAPE 145 DFDCONT
+   LINE 2 0 0 266 0 3 solid
+   LINE 2 0 200 266 200 3 solid
+END_SHAPE 0 0         * w=267,h=201  [x=-31 y=-23 w=314 h=271]
+
+DEF_SHAPE 146 dfda1
+   POLYGON 4 99 0 0 300 198 300 99 0 1 solid solid
+END_SHAPE 100 0         * w=199,h=301  [x=-100 y=0 w=199 h=301]
+
+DEF_SHAPE 147 dfda2
+   POLYGON 4 99 300 0 0 198 0 99 300 1 solid solid
+END_SHAPE 99 300         * w=199,h=301  [x=-99 y=-300 w=199 h=301]
+
+DEF_SHAPE 148 dfda3
+   POLYGON 4 0 150 165 0 165 300 0 150 1 solid solid
+END_SHAPE 0 150         * w=166,h=301  [x=0 y=-150 w=166 h=301]
+
+DEF_SHAPE 149 dfda4
+   POLYGON 4 165 150 0 0 0 300 165 150 1 solid solid
+END_SHAPE 165 150         * w=166,h=301  [x=-165 y=-150 w=166 h=301]
+
+DEF_SHAPE 150 dfdgen
+   LINE 2 265 403 265 3 2 solid
+   LINE 2 485 623 265 403 2 solid
+   LINE 2 46 619 265 403 2 solid
+   ELLIPSE 265 402 265 402 2 solid unfilled
+END_SHAPE 265 1         * w=530,h=804  [x=-281 y=-1 w=546 h=827]
+
+DEF_SHAPE 151 dfdxfmr
+   ARC 0 -157 265 398 180 180 2 solid unfilled
+   ARC 0 356 265 398 180 -180 2 solid unfilled
+   ARC 266 -157 265 398 180 180 2 solid unfilled
+   ARC 266 356 265 398 180 -180 2 solid unfilled
+   ARC 532 -157 265 398 180 180 2 solid unfilled
+   ARC 532 356 265 398 180 -180 2 solid unfilled
+   ARC 798 -157 265 398 180 180 2 solid unfilled
+   ARC 798 356 265 398 180 -180 2 solid unfilled
+   LINE 2 532 0 532 50 2 solid
+   LINE 2 532 540 532 600 2 solid
+END_SHAPE 531 3         * w=1063,h=601  [x=-547 y=-3 w=1079 h=624]
+
+DEF_SHAPE 152 VALVE7
+   POLYGON 4 0 274 0 524 264 274 264 524 1 solid solid
+   POLYGON 4 49 601 214 601 131 401 131 401 1 solid solid
+   LINE 2 132 400 132 100 1 solid
+   POLYGON 32 32 130 35 113 39 98 42 82 47 68
+        55 52 64 39 72 29 82 20
+        90 13 100 8 108 4 117 2
+        123 1 127 0 135 0 144 1
+        152 3 160 6 167 9 173 13
+        179 20 188 28 198 37 203 47
+        209 56 213 65 220 80 222 91
+        225 102 228 116 231 130 1 solid solid
+END_SHAPE 133 401         * w=265,h=602  [x=-133 y=-401 w=265 h=602]
+
+DEF_SHAPE 153 DFDCOIL
+   ARC 143 405 251 193 261 197 2 solid unfilled
+   ARC 144 809 251 193 261 197 2 solid unfilled
+   ARC 2 405 488 595 89 182 2 solid unfilled
+   ARC 3 809 488 595 89 182 2 solid unfilled
+   ARC 0 0 488 595 89 182 2 solid unfilled
+END_SHAPE 0 0         * w=395,h=1404  [x=-16 y=0 w=411 h=1427]
+
+DEF_SHAPE 154 stg
+   POLYGON 9 0 0 600 300 900 300 1500 0 1500 1100
+        900 800 600 800 0 1100 0 0
+        1 solid outline
+END_SHAPE 0 0         * w=1501,h=1101  [x=0 y=0 w=1501 h=1101]
+
+DEF_SHAPE 155 horn
+   POLYGON 4 526 0 23 204 23 304 526 508 1 solid solid
+   ELLIPSE 42 262 42 63 1 solid outline
+END_SHAPE 0 0         * w=527,h=509  [x=0 y=0 w=527 h=509]
+
+DEF_SHAPE 156 diapump
+   POLYGON 12 56 414 189 621 455 621 588 414 644 414
+        644 207 588 207 455 0 189 0
+        56 207 0 207 0 414 1 solid solid
+END_SHAPE 0 0         * w=645,h=622  [x=0 y=0 w=645 h=622]
+
+DEF_SHAPE 157 HEATER
+   RECTANGLE 0 0 666 458 1 solid solid
+END_SHAPE 0 0         * w=666,h=458  [x=0 y=0 w=666 h=458]
+

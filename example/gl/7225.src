@@ -1,0 +1,50 @@
+****************************************************************************
+* PROJECT NUMBER : ANALOG WINDOW GRAPHIC - CONTROL IN MAIN SCREEN
+* FILE NAME      : 7225.src (uses Macro7225.src)
+* DESCRIPTION    : Modulating Valve - 3 BAR Analog Control Station
+*                  $W1=Algo1 $W2=Algo2 $W3-P $W4-S $W5-O $W6-MAMODE(Analog MODE)
+*                  <A><M><RS><LS><RO><LO><DES><DEO>
+*                  "TITLE1" "TITLE2" "TITLE3"
+*                  "DESC1" "DESC2" "DESC3"
+*
+****************************************************************************
+DIAGRAM WINDOW 1 40 80 159 556 black ZOOMABLE 1 0 0 16384 16384 1 FIXED_POSITION FIXED_SIZE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*****************************************************************************
+*  EXAMPLE OF CALL FOR THIS MACRO:
+*
+*  Macro 7225 107 2170 6 3 3 1 1 0
+*   \ALGPNT1\ \ALGPNT2\ \PROCPNT\ \SETPNT\ \OUTPT\ \MAMODE\
+*   "MODULATING" "VALVE" "WIDTH....11" "PROCESS" "SETPOINT" "OUTPUT"
+*  SET1 CONST1
+*
+*****************************************************************************
+*
+Macro 7225 170 42 8.165296 1.267482 6 3 3 1 1 0 $W1 $W2 $W3 $W4 $W5 $W6 "  " "  " "  "
+"PROCESS" "SETPOINT" "OUTPUT" 1 1
+*
+*****************************************************************************
+BACKGROUND
+*****************************************************************************
+FOREGROUND
+*****************************************************************************
+KEYBOARD
+*****************************************************************************
+COLOR FG black BG black ER gray30 OL 1 BLINK FG OFF BG OFF
+ENTRY_FLD 2616 365 12 1 PROGRAM ASCII ON VECTOR 927 580 1
+ENTRY_FLD 2616 810 12 2 PROGRAM ASCII ON VECTOR 927 580 1
+ENTRY_FLD 2616 1255 12 3 PROGRAM ASCII ON VECTOR 927 580 1
+*****************************************************************************

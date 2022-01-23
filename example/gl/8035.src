@@ -1,0 +1,54 @@
+****************************************************************************
+*
+* FILE NAME      : 8035.src (uses Macro1735.src)
+* DESCRIPTION    : Motor-Operated Valve Digital Control Station
+*                  $D1=Algo1 $D2=Algo2 $D3=LS_A(Open Limit Switch) $D4=LS_B(Close Limit Switch)
+*                  $D5=AUTO $D6=Travel Fail Open $D7=Travel Fail Close
+*                  <OPEN><CLOSE><AUTO><MANUAL> "TITLE 1" "TITLE 2" "TITLE 3"
+*
+****************************************************************************
+DIAGRAM WINDOW 0 40 80 159 424 black ZOOMABLE 1 0 0 16384 16384 1 FIXED_POSITION FIXED_SIZE
+"OP,CL,A/M,FAIL OP/CL/LMT WINDOW (USES MACRO1735)"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*****************************************************************************
+*  EXAMPLE OF CALL FOR THIS MACRO:
+*
+*  Macro 1735 107 2170 8 0 3 0 0 0
+*   \ALGPNT1\ \ALGPNT2\ \LS_A\ \LS_B\ \AUTO\ \TRAVFAIL-OPEN\ \TRAVFAIL-CLOSE\
+*   \CPF_LSF\
+*   " TITLE1  " " TITLE2  " " TITLE3 WIDTH = 15"
+*
+*
+*****************************************************************************
+*
+Macro 1735 442 130 7.860081 1.258311 8 0 3 0 0 0 $W1 $W2 $W3 $W4 $W5 $W6 $W7 $W8
+"  " "  " "  "
+*
+*****************************************************************************
+BACKGROUND
+*****************************************************************************
+FOREGROUND
+*****************************************************************************
+KEYBOARD
+*****************************************************************************
+COLOR FG black BG black ER gray30 OL 1 BLINK FG OFF BG OFF
+ENTRY_FLD 1484 568 15 1 PROGRAM ASCII ON VECTOR 927 580 1
+ENTRY_FLD 1484 1110 15 2 PROGRAM ASCII ON VECTOR 927 580 1
+ENTRY_FLD 1484 1651 15 3 PROGRAM ASCII ON VECTOR 927 580 1
+*****************************************************************************

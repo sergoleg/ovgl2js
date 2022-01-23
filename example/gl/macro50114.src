@@ -1,0 +1,125 @@
+****************************************************************************
+* FILE NAME      : macro50111.src
+* DESCRIPTION    : PROCESS POINT: $D1-7 WIDE /QUAL ON /EU FIELD-6 WIDE
+****************************************************************************
+*
+*  EXAMPLE OF CALL FOR THIS MACRO:
+*
+*  Macro 50111 0 1960 1.000000 1.000000 1 0 0 0 0 0  \PTNAME\
+*
+****************************************************************************
+DIAGRAM MAIN 0 30 90 1064 738 gray35 ZOOMABLE 1 0 0 16384 16384 1 FIXED_POSITION FIXED_SIZE
+"PROCESS POINT FB (EU'S UNDER)"
+
+
+
+
+
+
+
+
+
+
+
+
+
+***************************************
+BACKGROUND
+*
+* THICK BEZEL - TGR
+****************************************
+*
+*COLOR FG gray80 BG white ER gray60 OL 0 BLINK FG OFF BG OFF
+*POLYGON 200 350 200 800 230 750 230 400 990 400 1023 350 1 solid solid
+*COLOR FG gray45 BG gray65 ER gray60 OL 1 BLINK FG OFF BG OFF
+*POLYGON 1023 800 1023 350 990 400 990 750 230 750 200 800 1 solid solid
+*COLOR FG gray60 BG gray65 ER gray60 OL 1 BLINK FG OFF BG OFF
+*LINE 986 404 986 724 235 724 1 solid
+FONT "Lucida Sans Typewriter" REGULAR
+***************************************
+FOREGROUND
+***************************************
+*
+* THIN BEZEL - TGR
+*
+FONT "Lucida Sans Typewriter" REGULAR
+COLOR FG gray85 BG gray35 ER gray35 OL 0 BLINK FG OFF BG OFF
+RECTANGLE 203 400 822 350 1 solid outline
+*
+
+COLOR FG cornsilk1 { ($D1 AS = HDWRFAIL) white  (((($D1 AS = LOWALARM) AND ($D1 AP = OFF2))
+AND ($D1 AP = OFF3)) AND ($D1 AS = ALARMACK)) white  (((((($D1 AS = LOWALARM) AND ($D1 AP =
+ON2)) AND ($D1 AP = OFF0)) AND ($D1 AP = OFF1)) AND ($D1 AP = OFF3)) AND ($D1 AS =
+ALARMACK)) white  (((($D1 AS = HIGHALARM) AND ($D1 AP = OFF6)) AND ($D1 AP = OFF7)) AND
+($D1 AS = ALARMACK)) white  (((((($D1 AS = HIGHALARM) AND ($D1 AP = ON6)) AND ($D1 AP =
+OFF4)) AND ($D1 AP = OFF5)) AND ($D1 AP = OFF7)) AND ($D1 AS = ALARMACK)) white  ((($D1 AS
+= LOWALARM) AND ($D1 AP = OFF2)) AND ($D1 AP = OFF3)) white  ((((($D1 AS = LOWALARM) AND
+($D1 AP = ON2)) AND ($D1 AP = OFF0)) AND ($D1 AP = OFF1)) AND ($D1 AP = OFF3)) white
+((($D1 AS = HIGHALARM) AND ($D1 AP = OFF6)) AND ($D1 AP = OFF7)) white  ((((($D1 AS =
+HIGHALARM) AND ($D1 AP = ON6)) AND ($D1 AP = OFF4)) AND ($D1 AP = OFF5)) AND ($D1 AP =
+OFF7)) white  (($D1 AS = ALARM) AND ($D1 AS = ALARMACK)) black  ($D1 AS = ALARM) black  }
+BG black { ($D1 AS = HDWRFAIL) magenta  (((($D1 AS = LOWALARM) AND ($D1 AP = OFF2)) AND
+($D1 AP = OFF3)) AND ($D1 AS = ALARMACK)) red  (((((($D1 AS = LOWALARM) AND ($D1 AP = ON2))
+AND ($D1 AP = OFF0)) AND ($D1 AP = OFF1)) AND ($D1 AP = OFF3)) AND ($D1 AS = ALARMACK)) red
+ (((($D1 AS = HIGHALARM) AND ($D1 AP = OFF6)) AND ($D1 AP = OFF7)) AND ($D1 AS = ALARMACK))
+red  (((((($D1 AS = HIGHALARM) AND ($D1 AP = ON6)) AND ($D1 AP = OFF4)) AND ($D1 AP =
+OFF5)) AND ($D1 AP = OFF7)) AND ($D1 AS = ALARMACK)) red  ((($D1 AS = LOWALARM) AND ($D1 AP
+= OFF2)) AND ($D1 AP = OFF3)) red  ((((($D1 AS = LOWALARM) AND ($D1 AP = ON2)) AND ($D1 AP
+= OFF0)) AND ($D1 AP = OFF1)) AND ($D1 AP = OFF3)) red  ((($D1 AS = HIGHALARM) AND ($D1 AP
+= OFF6)) AND ($D1 AP = OFF7)) red  ((((($D1 AS = HIGHALARM) AND ($D1 AP = ON6)) AND ($D1 AP
+= OFF4)) AND ($D1 AP = OFF5)) AND ($D1 AP = OFF7)) red  (($D1 AS = ALARM) AND ($D1 AS =
+ALARMACK)) yellow  ($D1 AS = ALARM) yellow  } ER gray45 OL 0 BLINK FG OFF BG OFF (($D1 AS =
+ALARM) AND ($D1 AS = ALARMACK)) ON
+PROCESS_PT 264 439 7 -1 RIGHT ON HORZ VECTOR_OVER 100 280 1 $D1 AV
+
+COLOR FG gray40 { (((($D1 AS = LOWALARM) AND ($D1 AP = OFF2)) AND ($D1 AP = OFF3)) AND ($D1
+AS = ALARMACK)) red  (((((($D1 AS = LOWALARM) AND ($D1 AP = ON2)) AND ($D1 AP = OFF0)) AND
+($D1 AP = OFF1)) AND ($D1 AP = OFF3)) AND ($D1 AS = ALARMACK)) red  (((($D1 AS = HIGHALARM)
+AND ($D1 AP = OFF6)) AND ($D1 AP = OFF7)) AND ($D1 AS = ALARMACK)) red  (((((($D1 AS =
+HIGHALARM) AND ($D1 AP = ON6)) AND ($D1 AP = OFF4)) AND ($D1 AP = OFF5)) AND ($D1 AP =
+OFF7)) AND ($D1 AS = ALARMACK)) red  ((($D1 AS = LOWALARM) AND ($D1 AP = OFF2)) AND ($D1 AP
+= OFF3)) red  ((((($D1 AS = LOWALARM) AND ($D1 AP = ON2)) AND ($D1 AP = OFF0)) AND ($D1 AP
+= OFF1)) AND ($D1 AP = OFF3)) red  ((($D1 AS = HIGHALARM) AND ($D1 AP = OFF6)) AND ($D1 AP
+= OFF7)) red  ((((($D1 AS = HIGHALARM) AND ($D1 AP = ON6)) AND ($D1 AP = OFF4)) AND ($D1 AP
+= OFF5)) AND ($D1 AP = OFF7)) red  (($D1 AS = ALARM) AND ($D1 AS = ALARMACK)) yellow  ($D1
+AS = ALARM) yellow  } BG gray35 ER black OL 0 BLINK FG OFF BG OFF
+
+RECTANGLE 50 404 130 340 1 solid solid
+
+
+COLOR FG gray40 { (((($D1 AS = LOWALARM) AND ($D1 AP = OFF2)) AND ($D1 AP = OFF3)) AND ($D1
+AS = ALARMACK)) white  (((((($D1 AS = LOWALARM) AND ($D1 AP = ON2)) AND ($D1 AP = OFF0))
+AND ($D1 AP = OFF1)) AND ($D1 AP = OFF3)) AND ($D1 AS = ALARMACK)) white  (((($D1 AS =
+HIGHALARM) AND ($D1 AP = OFF6)) AND ($D1 AP = OFF7)) AND ($D1 AS = ALARMACK)) white
+(((((($D1 AS = HIGHALARM) AND ($D1 AP = ON6)) AND ($D1 AP = OFF4)) AND ($D1 AP = OFF5)) AND
+($D1 AP = OFF7)) AND ($D1 AS = ALARMACK)) white  ((($D1 AS = LOWALARM) AND ($D1 AP = OFF2))
+AND ($D1 AP = OFF3)) white  ((((($D1 AS = LOWALARM) AND ($D1 AP = ON2)) AND ($D1 AP =
+OFF0)) AND ($D1 AP = OFF1)) AND ($D1 AP = OFF3)) white  ((($D1 AS = HIGHALARM) AND ($D1 AP
+= OFF6)) AND ($D1 AP = OFF7)) white  ((((($D1 AS = HIGHALARM) AND ($D1 AP = ON6)) AND ($D1
+AP = OFF4)) AND ($D1 AP = OFF5)) AND ($D1 AP = OFF7)) white  (($D1 AS = ALARM) AND ($D1 AS
+= ALARMACK)) black  ($D1 AS = ALARM) black  } BG gray40 { (((($D1 AS = LOWALARM) AND ($D1
+AP = OFF2)) AND ($D1 AP = OFF3)) AND ($D1 AS = ALARMACK)) red  (((((($D1 AS = LOWALARM) AND
+($D1 AP = ON2)) AND ($D1 AP = OFF0)) AND ($D1 AP = OFF1)) AND ($D1 AP = OFF3)) AND ($D1 AS
+= ALARMACK)) red  (((($D1 AS = HIGHALARM) AND ($D1 AP = OFF6)) AND ($D1 AP = OFF7)) AND
+($D1 AS = ALARMACK)) red  (((((($D1 AS = HIGHALARM) AND ($D1 AP = ON6)) AND ($D1 AP =
+OFF4)) AND ($D1 AP = OFF5)) AND ($D1 AP = OFF7)) AND ($D1 AS = ALARMACK)) red  ((($D1 AS =
+LOWALARM) AND ($D1 AP = OFF2)) AND ($D1 AP = OFF3)) red  ((((($D1 AS = LOWALARM) AND ($D1
+AP = ON2)) AND ($D1 AP = OFF0)) AND ($D1 AP = OFF1)) AND ($D1 AP = OFF3)) red  ((($D1 AS =
+HIGHALARM) AND ($D1 AP = OFF6)) AND ($D1 AP = OFF7)) red  ((((($D1 AS = HIGHALARM) AND ($D1
+AP = ON6)) AND ($D1 AP = OFF4)) AND ($D1 AP = OFF5)) AND ($D1 AP = OFF7)) red  (($D1 AS =
+ALARM) AND ($D1 AS = ALARMACK)) yellow  ($D1 AS = ALARM) yellow  } ER black OL 0 BLINK FG
+OFF BG OFF
+TEXT 65 439  " " { ($D1 AS = HIGHALARM) "H" ($D1 AS = LOWALARM) "L" } HORZ VECTOR_OVER 100
+280 1
+
+COLOR FG yellow BG white ER white OL 0 BLINK FG OFF BG OFF
+PROCESS_PT 274 816 6 -1 LEFT OFF HORZ VECTOR 100 280 1 $D1 EU
+***************************************
+
+
+KEYBOARD
+*
+FONT "Lucida Sans Typewriter" REGULAR
+*
+COLOR FG black BG white ER gray50 OL 0 BLINK FG OFF BG OFF
+POKE_FLD 50 404 150 360 ON 7 1 214 0 1 $D1 ID
