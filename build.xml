@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<project default="create_run_jar" name="Create Runnable Jar for Project OvGl" basedir=".">
+
+    <!-- define folder properties -->
+	<property environment="env"/>
+	<property name="debuglevel" value="source,lines,vars"/>
+	<property name="target"     value="1.8"/>
+	<property name="source"     value="1.8"/>
+
+	<property name="dir.buildfile" value="."/>
+    <property name="dir.workspace" value="${dir.buildfile}/.."/>
+    <property name="dir.jarfile"   value="${dir.buildfile}/dist"/>
+
+    <!-- ANT 1.7 is required -->
+	<fail message="Please build using Ant 1.7.0 or higher.">
+		<condition>
+			<not>
+				<antversion atleast="1.7.0"/>
+			</not>
+		</condition>
+	</fail>
+
+    <!-- -->
+	<path id="OvGl.classpath">
+		<pathelement location="build/classes"/>
+		<pathelement location="lib/antlr-4.7.2-complete.jar"/>
+		<pathelement location="lib/args4j-2.33.jar"/>
+	</path>
+
+	<!--
+		==============
+		CREATE RUN JAR: clear; translate; initialize; compile.
+		==============
+	-->
+	<target name="create_run_jar" depends="clear,translate,initialize,compile">
+		<echo message="Create Runnable Jar for Project OvGl - ./build/ant/gl2js.jar"/>
+		<jar destfile="${dir.jarfile}/ant/gl2js.jar" filesetmanifest="mergewithoutmain">
+			<manifest>
+				<attribute name="Main-Class" value="org.ops.ovation.mmi.gl.gl2js"/>
+				<attribute name="Class-Path" value="."/>
+				<!-- -->
+				<attribute name="Implementation-Vendor"  value="WSC (https://www.ws-corp.com/)"/>
+				<attribute name="Implementation-Title"   value="OvPDS (Ovation Process Diagram System)"/>
+				<attribute name="Implementation-Version" value="1.0.0 beta 2"/>
+				<attribute name="Built-By"               value="Oleg Sergeev [sergoleg@gmail.com]"/>
+				<!-- -->
+			</manifest>
+			<fileset dir="${dir.buildfile}/build/classes"/>
+			<zipfileset excludes="META-INF/*.SF" src="${dir.buildfile}/lib/antlr-4.7.2-complete.jar"/>
+			<zipfileset excludes="META-INF/*.SF" src="${dir.buildfile}/lib/args4j-2.33.jar"/>
+		</jar>
+	</target>
+
+	<!--
+		=============
+		CLEAR SECTION
+		=============
+	-->
+	<target name="clear">
+		<echo message="Delete ./build/classes and ./target/generated-sources/antlr4/org"/>
+		<delete dir="build/classes"/>
+		<delete dir="target/generated-sources/antlr4/org"/>
+	</target>
+
+	<!--
+		=======================================
+		TRANSLATE ANTLR GRAMMAR FILES INTO JAVA
+		=======================================
+	-->
+	<target name="translate" >
+		<echo message="Translate ANTLR v4 ./grammar/*.g4 files into Java parser, lexer"/>
+		<property name="antlr_jar"         value="lib/antlr-4.7.2-complete.jar"/>
+		<property name="antlr_src_dir"     value="grammar"/>
+		<property name="antlr_dest_dir"    value="target/generated-sources/antlr4/org/ops/ovation/mmi/gl"/>
+		<property name="antlr_option_code" value="-listener -no-visitor -encoding UTF-8 -Xexact-output-dir"/>
+		<java jar="${antlr_jar}" fork="true">
+			<arg line="${antlr_option_code}"/>
+			<arg line="-o ${antlr_dest_dir} ${antlr_src_dir}/*Lexer.g4"/>
+		</java>
+		<java jar="${antlr_jar}" fork="true">
+			<arg line="${antlr_option_code}"/>
+			<arg line="-o ${antlr_dest_dir} ${antlr_src_dir}/*Parser.g4"/>
+		</java>
+	</target>
+
+	<!--
+		==================
+		INITIALIZE SECTION
+		==================
+	-->
+	<target name="initialize">
+		<echo message="Make directory ./build/classes"/>
+		<mkdir dir="build/classes"/>
+		<copy includeemptydirs="false" todir="build/classes">
+			<fileset dir="src">
+				<exclude name="**/*.java"/>
+				<exclude name="**/*.interp"/>
+				<exclude name="**/*.tokens"/>
+			</fileset>
+		</copy>
+		<copy includeemptydirs="false" todir="build/classes">
+			<fileset dir="target/generated-sources/antlr4">
+				<exclude name="**/*.java"/>
+				<exclude name="**/*.interp"/>
+				<exclude name="**/*.tokens"/>
+			</fileset>
+		</copy>
+	</target>
+
+	<!--
+		===================
+		COMPILATION SECTION
+		===================
+	-->
+	<target name="compile">
+		<!--
+		<echo message="${ant.project.name}: ${ant.file}"/>
+		-->
+		<echo message="Compiling source files to ./build/classes/"/>
+		<javac debug="true" debuglevel="${debuglevel}" destdir="build/classes"
+				includeantruntime="false" source="${source}" target="${target}" encoding="UTF-8">
+			<src path="src"/>
+			<src path="target/generated-sources/antlr4"/>
+			<classpath refid="OvGl.classpath"/>
+		</javac>
+	</target>
+
+	<!--
+		Сценарий решает задачу копирования файла gl2js.jar
+		из директории проекта OvGl
+		в директорию инструментов проекта OvPDS
+	-->
+	<target name="install" description="Install ./build/ant/gl2js.jar file to ../OvPDS/bin/gl2js.jar file">
+		<echo>Install ${dir.jarfile}/ant/gl2js.jar to ../OvPDS/bin/gl2js.jar</echo>
+		<copy todir="../OvPDS/bin">
+			<fileset dir="${dir.jarfile}/ant">
+				<include name="**/gl2js.jar"/>
+			</fileset>
+		</copy>
+	</target>
+
+</project>
