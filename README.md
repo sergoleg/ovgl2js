@@ -48,3 +48,10 @@ Tool for migrating Ovation graphics language to JavaScript
 содержащий код графического языка и языка доступа к данным и Ovation,
 в программу на другом языке, интерпретируемым стандартным Веб-обозревателем.
 [Метод достижения цели](https://github.com/sergoleg/ovgl2js/blob/main/example/data_pipeline.jpg "Метод достижения цели")
+
+## Результат.
+
+[Technical Information](https://github.com/sergoleg/ovgl2js/blob/main/example/Tech%20Tips%20for%20HMI%20Ovation.pdf "Technical Information")
+
+## О себе.
+
