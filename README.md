@@ -47,11 +47,12 @@ Tool for migrating Ovation graphics language to JavaScript
 - ПО RWT должно преобразовывать ASCII-файл представления видеокадра,
 содержащий код графического языка и языка доступа к данным и Ovation,
 в программу на другом языке, интерпретируемым стандартным Веб-обозревателем.
-[Метод достижения цели](https://github.com/sergoleg/ovgl2js/blob/main/example/data_pipeline.jpg "Метод достижения цели")
+[Метод достижения цели](https://github.com/sergoleg/ovgl2js/blob/main/example/data_pipeline.jpg)
 
 ## Результат.
 
-[Technical Information](https://github.com/sergoleg/ovgl2js/blob/main/example/Tech%20Tips%20for%20HMI%20Ovation.pdf "Technical Information")
+[Технический отчет](https://github.com/sergoleg/ovgl2js/blob/main/example/Tech%20Tips%20for%20HMI%20Ovation.pdf)
 
 ## О себе.
 
+[Актуальное резюме](https://github.com/sergoleg/ovgl2js/blob/main/rezjumeOlegSergeev2022.pdf)
