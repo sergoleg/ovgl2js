@@ -1,7 +1,7 @@
 # ovgl2js
 Tool for migrating Ovation graphics language to JavaScript (with ANTLR (ANother Tool for Language Recognition))
 
-# Функция отображения видеокадров в АСУ ТП Ovation.
+## Функция отображения видеокадров в АСУ ТП Ovation.
 
 Функция отображения видеокадров предназначена для представления оператору технологической информации на видеокадрах в виде мнемосхем, гистограмм и в табличной форме.
 
@@ -15,7 +15,7 @@ Tool for migrating Ovation graphics language to JavaScript (with ANTLR (ANother 
 
 Файл объекта (.diag) является “исполняемым” файлом видеокадра, отображаемой на Операторской станции системы Ovation.
 
-# Мотивация на разработку.
+## Мотивация.
 
 Разработка ПО отображения видеокадров системы Ovation на терминалах с использованием Веб-технологий (удаленный веб терминал – remote web terminal (RWT)).
 
@@ -29,3 +29,5 @@ Tool for migrating Ovation graphics language to JavaScript (with ANTLR (ANother 
 - ПО RWT должно преобразовывать ASCII-файл представления видеокадра, содержащий код графического языка и языка доступа к данным и Ovation, в программу на другом языке, интерпретируемым стандартным Веб-обозревателем.
 
 Метод достижения цели:
+
+[пример](https://github.com/sergoleg/ovgl2js/blob/main/example/data_pipeline.jpg "Метод достижения цели")
