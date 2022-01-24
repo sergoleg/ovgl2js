@@ -7,6 +7,11 @@ Tool for migrating Ovation graphics language to JavaScript (with ANTLR (ANother 
 
 АСУ ТП Ovation, предлагает высококачественную графику на базе стандартных графических элементов, которая обеспечивает эффективное управление оборудованием предприятия, в точности отражающимся его структуру через видеокадры.
 
+[пример видеокадра 2070](https://github.com/sergoleg/ovgl2js/blob/main/example/png/2070.png)
+[пример видеокадра 3000](https://github.com/sergoleg/ovgl2js/blob/main/example/png/3000.png)
+[пример видеокадра 3260](https://github.com/sergoleg/ovgl2js/blob/main/example/png/3260.png)
+[пример видеокадра 3301](https://github.com/sergoleg/ovgl2js/blob/main/example/png/3301.png)
+
 Программа Graphics Builder (GB) используется для создания видеокадров, отображаемых на Операторской станции системы Ovation. Видеокадры являются программами, отображающими графические образы оборудования, управляющего технологическими процессами предприятия.
 
 В пакете GB создаются и редактируются два файла видеокадров (исходный и объектный).
