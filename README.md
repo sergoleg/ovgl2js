@@ -11,10 +11,7 @@ Tool for migrating Ovation graphics language to JavaScript
 которая обеспечивает эффективное управление оборудованием предприятия,
 в точности отражающимся его структуру через видеокадры.
 
-- [пример видеокадра 2070](https://github.com/sergoleg/ovgl2js/blob/main/example/png/2070.png)
-- [пример видеокадра 3000](https://github.com/sergoleg/ovgl2js/blob/main/example/png/3000.png)
-- [пример видеокадра 3260](https://github.com/sergoleg/ovgl2js/blob/main/example/png/3260.png)
-- [пример видеокадра 3301](https://github.com/sergoleg/ovgl2js/blob/main/example/png/3301.png)
+[пример видеокадра 3301](https://github.com/sergoleg/ovgl2js/blob/main/example/png/3301.png)
 
 Программа Graphics Builder (GB) используется для создания видеокадров,
 отображаемых на Операторской станции системы Ovation.
@@ -29,7 +26,7 @@ Tool for migrating Ovation graphics language to JavaScript
 специфицированному в документе [Graphics Language Reference Manual for Ovation](https://github.com/sergoleg/ovgl2js/blob/main/example/OW240_91%20Graphics%20Language%20Reference%20Manual%20for%20Ovation%202.4.pdf)
 .
 
-Примеры src файлов видеокадров приведены здесь (ovgl2js/example/gl/).
+[пример src файла видеокадра 3301](https://github.com/sergoleg/ovgl2js/blob/main/example/gl/3301.src)
 
 Файл объекта (.diag) является “исполняемым” файлом видеокадра, отображаемой на Операторской станции системы Ovation.
 
