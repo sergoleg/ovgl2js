@@ -58,4 +58,4 @@ Tool for migrating Ovation graphics language to JavaScript
 
 ## О себе.
 
-[Актуальное резюме](https://github.com/sergoleg/ovgl2js/blob/main/rezjumeOlegSergeev2022.pdf)
+[Актуальное резюме от 24.01.2022](https://github.com/sergoleg/ovgl2js/blob/main/rezjumeOlegSergeev2022.pdf)
