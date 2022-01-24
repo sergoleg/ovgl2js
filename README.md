@@ -26,8 +26,8 @@ Tool for migrating Ovation graphics language to JavaScript
 
 Файл источника (.src) является ASCII-файлом представления видеокадра, предназначенным только для чтения,
 и соответствует синтаксису языка графики,
-специфицированному в документе
-<https://github.com/sergoleg/ovgl2js/blob/main/example/OW240_91%20Graphics%20Language%20Reference%20Manual%20for%20Ovation%202.4.pdf>
+специфицированному в документе [Graphics Language Reference Manual for Ovation]
+(https://github.com/sergoleg/ovgl2js/blob/main/example/OW240_91%20Graphics%20Language%20Reference%20Manual%20for%20Ovation%202.4.pdf).
 
 Файл объекта (.diag) является “исполняемым” файлом видеокадра, отображаемой на Операторской станции системы Ovation.
 
