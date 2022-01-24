@@ -54,6 +54,8 @@ Tool for migrating Ovation graphics language to JavaScript
 
 [Технический отчет](https://github.com/sergoleg/ovgl2js/blob/main/example/Tech%20Tips%20for%20HMI%20Ovation.pdf)
 
+[пример diag файла видеокадра 3301 на JavaScript](https://github.com/sergoleg/ovgl2js/blob/main/example/js/3301.min.diag.js)
+
 ## О себе.
 
 [Актуальное резюме](https://github.com/sergoleg/ovgl2js/blob/main/rezjumeOlegSergeev2022.pdf)
