@@ -47,5 +47,4 @@ Tool for migrating Ovation graphics language to JavaScript
 - ПО RWT должно преобразовывать ASCII-файл представления видеокадра,
 содержащий код графического языка и языка доступа к данным и Ovation,
 в программу на другом языке, интерпретируемым стандартным Веб-обозревателем.
-
 [Метод достижения цели](https://github.com/sergoleg/ovgl2js/blob/main/example/data_pipeline.jpg "Метод достижения цели")
