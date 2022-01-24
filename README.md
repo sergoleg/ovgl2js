@@ -28,6 +28,8 @@ Tool for migrating Ovation graphics language to JavaScript
 
 [пример src файла видеокадра 3301](https://github.com/sergoleg/ovgl2js/blob/main/example/gl/3301.src)
 
+Примеры файлов MACRO и POPUP WINDOW смотри в ovgl2js/example/gl/*.src.
+
 Файл объекта (.diag) является “исполняемым” файлом видеокадра, отображаемой на Операторской станции системы Ovation.
 
 ## Мотивация.
