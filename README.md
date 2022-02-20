@@ -52,10 +52,14 @@ Tool for migrating Ovation graphics language to JavaScript
 
 ## Результат.
 
+[Ovation ® Graphics Language LEXER](https://github.com/sergoleg/ovgl2js/blob/main/grammar/glLexer.g4)
+[Ovation ® Graphics Language PARSER](https://github.com/sergoleg/ovgl2js/blob/main/grammar/glParser.g4)
+
 [Технический отчет](https://github.com/sergoleg/ovgl2js/blob/main/example/Tech%20Tips%20for%20HMI%20Ovation.pdf "Tech Tips for HMI Ovation")
 
 [пример diag файла видеокадра 3301 на JavaScript](https://github.com/sergoleg/ovgl2js/blob/main/example/js/3301.diag.js)
 
 ## О себе.
 
-[Актуальное резюме от 24.01.2022](https://github.com/sergoleg/ovgl2js/blob/main/rezjumeOlegSergeev2022.pdf)
+[Актуальное резюме от 19.02.2022 (ru)](https://github.com/sergoleg/ovgl2js/blob/main/rezjumeOlegSergeev_ru.pdf)
+[Актуальное резюме от 19.02.2022 (en)](https://github.com/sergoleg/ovgl2js/blob/main/rezjumeOlegSergeev_en.pdf)
