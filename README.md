@@ -21,8 +21,8 @@ Tool for migrating Ovation graphics language to JavaScript
 В пакете GB создаются и редактируются два файла видеокадров (исходный и объектный).
 
 Файл источника (.src) является ASCII-файлом представления видеокадра, предназначенным только для чтения,
-и соответствует синтаксису языка графики,
-проблемно-ориентируемому языку специфицированному в документе [Graphics Language Reference Manual for Ovation](https://github.com/sergoleg/ovgl2js/blob/main/example/OW240_91%20Graphics%20Language%20Reference%20Manual%20for%20Ovation%202.4.pdf)
+и соответствует синтаксису проблемно-ориентируемого языка графики,
+специфицированному в документе [Graphics Language Reference Manual for Ovation](https://github.com/sergoleg/ovgl2js/blob/main/example/OW240_91%20Graphics%20Language%20Reference%20Manual%20for%20Ovation%202.4.pdf)
 .
 
 [пример src файла видеокадра 3301](https://github.com/sergoleg/ovgl2js/blob/main/example/gl/3301.src)
