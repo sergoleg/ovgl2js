@@ -3,7 +3,6 @@ Tool for migrating Ovation graphics language to JavaScript
 (with ANTLR (ANother Tool for Language Recognition))
 
 ## Функция отображения видеокадров в АСУТП Ovation.
-
 Функция отображения видеокадров предназначена для представления оператору технологической информации
 на видеокадрах в виде мнемосхем, гистограмм и в табличной форме.
 
@@ -23,7 +22,7 @@ Tool for migrating Ovation graphics language to JavaScript
 
 Файл источника (.src) является ASCII-файлом представления видеокадра, предназначенным только для чтения,
 и соответствует синтаксису языка графики,
-специфицированному в документе [Graphics Language Reference Manual for Ovation](https://github.com/sergoleg/ovgl2js/blob/main/example/OW240_91%20Graphics%20Language%20Reference%20Manual%20for%20Ovation%202.4.pdf)
+проблемно-ориентируемому языку специфицированному в документе [Graphics Language Reference Manual for Ovation](https://github.com/sergoleg/ovgl2js/blob/main/example/OW240_91%20Graphics%20Language%20Reference%20Manual%20for%20Ovation%202.4.pdf)
 .
 
 [пример src файла видеокадра 3301](https://github.com/sergoleg/ovgl2js/blob/main/example/gl/3301.src)
@@ -33,7 +32,6 @@ Tool for migrating Ovation graphics language to JavaScript
 Файл объекта (.diag) является “исполняемым” файлом видеокадра, отображаемой на Операторской станции системы Ovation.
 
 ## Мотивация.
-
 Разработка ПО отображения видеокадров системы Ovation на терминалах с использованием Веб-технологий (удаленный веб терминал – remote web terminal (RWT)).
 
 Бизнес-требования:
@@ -50,8 +48,10 @@ Tool for migrating Ovation graphics language to JavaScript
 в программу на другом языке, интерпретируемым стандартным Веб-обозревателем.
 [Метод достижения цели](https://github.com/sergoleg/ovgl2js/blob/main/example/data_pipeline.jpg)
 
-## Результат.
+## Задача.
+Разработать приложение транслирующее алгоритмический проблемно-ориентированный язык графики в язык JavaScript. 
 
+## Результат.
 [Ovation ® Graphics Language LEXER](https://github.com/sergoleg/ovgl2js/blob/main/grammar/glLexer.g4)
 
 [Ovation ® Graphics Language PARSER](https://github.com/sergoleg/ovgl2js/blob/main/grammar/glParser.g4)
