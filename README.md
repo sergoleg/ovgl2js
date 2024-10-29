@@ -1,8 +1,5 @@
-# ovgl2js
-Tool for migrating Ovation graphics language to JavaScript
+# Tool for migrating Ovation graphics language to JavaScript
 (with ANTLR (ANother Tool for Language Recognition))
-
-
 
 The HMI/SCADA local application transfer project of the non-nuclear thermal power plant training simulator to the Web environment.
 
