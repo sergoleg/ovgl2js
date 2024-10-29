@@ -13,6 +13,8 @@ Some applications are designed in the form of Docker images (Linux, Windows, tra
 
 Initially, ActionScript were used in similar projects (until 2011), then the Raphael JS JavaScript framework (SVG, until 2019).
 
+
+
 ## Функция отображения видеокадров в АСУТП Ovation.
 Функция отображения видеокадров предназначена для представления оператору технологической информации
 на видеокадрах в виде мнемосхем, гистограмм и в табличной форме.
@@ -23,18 +25,16 @@ Initially, ActionScript were used in similar projects (until 2011), then the Rap
 
 [пример видеокадра 3301](https://github.com/sergoleg/ovgl2js/blob/main/example/png/3301.png)
 
-Программа Graphics Builder (GB) используется для создания видеокадров,
-отображаемых на Операторской станции системы Ovation.
-
 Видеокадры являются программами, отображающими графические образы оборудования,
 управляющего технологическими процессами предприятия.
+
+Пакет Graphics Builder (GB) используется для создания видеокадров,
+отображаемых на Операторской станции системы Ovation.
 
 В пакете GB создаются и редактируются два файла видеокадров (исходный и объектный).
 
 Файл источника (.src) является ASCII-файлом представления видеокадра, предназначенным только для чтения,
-и соответствует синтаксису проблемно-ориентируемого языка графики,
-специфицированному в документе [Graphics Language Reference Manual for Ovation](https://github.com/sergoleg/ovgl2js/blob/main/example/OW240_91%20Graphics%20Language%20Reference%20Manual%20for%20Ovation%202.4.pdf)
-.
+и соответствует синтаксису проблемно-ориентируемого языка графики.
 
 [пример src файла видеокадра 3301](https://github.com/sergoleg/ovgl2js/blob/main/example/gl/3301.src)
 
@@ -46,7 +46,7 @@ Initially, ActionScript were used in similar projects (until 2011), then the Rap
 Разработка ПО отображения видеокадров системы Ovation на терминалах с использованием Веб-технологий (удаленный веб терминал – remote web terminal (RWT)).
 
 Бизнес-требования:
-- ПО RWT должно отображать видеокадры (не меньше 1000 шт.) Операторских станций систем АСУТП Ovation на Веб-терминалах – с любого устройства,
+- ПО RWT должно отображать видеокадры Операторских станций систем АСУТП Ovation на Веб-терминалах – с любого устройства,
 где есть Веб-обозреватель, находясь в любом месте и в любое время, не устанавливая специальное ПО.
 
 Требования пользователей:
