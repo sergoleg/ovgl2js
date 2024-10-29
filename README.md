@@ -1,6 +1,17 @@
 # ovgl2js
+
 Tool for migrating Ovation graphics language to JavaScript
 (with ANTLR (ANother Tool for Language Recognition))
+
+The HMI/SCADA local application transfer project of the non-nuclear thermal power plant training simulator to the Web environment.
+
+Applications are developed, that simulate the functions of preparing and displaying SCADA Ovation, [`video frames in the Web browser`](https://github.com/sergoleg/ovhmi).
+
+Was used the ANTLR+Java tool to develop the Ovation text file translator in JavaScript language programs and 2D WebGL visualization technology 2D WebGL visualization technology (Pixi JS).
+
+Some applications are designed in the form of Docker images (Linux, Windows, translator, proxy service for WebSocket, Perl, Python, C/C++ ...).
+
+Initially, ActionScript were used in similar projects (until 2011), then the Raphael JS JavaScript framework (SVG, until 2019).
 
 ## Функция отображения видеокадров в АСУТП Ovation.
 Функция отображения видеокадров предназначена для представления оператору технологической информации
@@ -56,12 +67,4 @@ Tool for migrating Ovation graphics language to JavaScript
 
 [Ovation ® Graphics Language PARSER](https://github.com/sergoleg/ovgl2js/blob/main/grammar/glParser.g4)
 
-[Технический отчет](https://github.com/sergoleg/ovgl2js/blob/main/example/Tech%20Tips%20for%20HMI%20Ovation.pdf "Tech Tips for HMI Ovation")
-
 [пример diag файла видеокадра 3301 на JavaScript](https://github.com/sergoleg/ovgl2js/blob/main/example/js/3301.diag.js)
-
-## О себе.
-
-[Актуальное резюме от 19.02.2022 (ru)](https://github.com/sergoleg/ovgl2js/blob/main/rezjumeOlegSergeev_ru.pdf)
-
-[Актуальное резюме от 19.02.2022 (en)](https://github.com/sergoleg/ovgl2js/blob/main/rezjumeOlegSergeev_en.pdf)
